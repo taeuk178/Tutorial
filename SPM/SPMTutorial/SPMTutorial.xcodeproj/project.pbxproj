@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3061CB602785BA7100719108 /* Color in Frameworks */ = {isa = PBXBuildFile; productRef = 3061CB5F2785BA7100719108 /* Color */; };
 		30BE06FC2785A9B30040F02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE06FB2785A9B30040F02E /* AppDelegate.swift */; };
 		30BE06FE2785A9B30040F02E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE06FD2785A9B30040F02E /* SceneDelegate.swift */; };
 		30BE07002785A9B30040F02E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE06FF2785A9B30040F02E /* ViewController.swift */; };
 		30BE07032785A9B30040F02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BE07012785A9B30040F02E /* Main.storyboard */; };
 		30BE07052785A9B40040F02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30BE07042785A9B40040F02E /* Assets.xcassets */; };
 		30BE07082785A9B40040F02E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30BE07062785A9B40040F02E /* LaunchScreen.storyboard */; };
-		30BE07122785B0470040F02E /* Color in Frameworks */ = {isa = PBXBuildFile; productRef = 30BE07112785B0470040F02E /* Color */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30BE07122785B0470040F02E /* Color in Frameworks */,
+				3061CB602785BA7100719108 /* Color in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 			);
 			name = SPMTutorial;
 			packageProductDependencies = (
-				30BE07112785B0470040F02E /* Color */,
+				3061CB5F2785BA7100719108 /* Color */,
 			);
 			productName = SPMTutorial;
 			productReference = 30BE06F82785A9B30040F02E /* SPMTutorial.app */;
@@ -377,7 +377,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		30BE07112785B0470040F02E /* Color */ = {
+		3061CB5F2785BA7100719108 /* Color */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Color;
 		};
