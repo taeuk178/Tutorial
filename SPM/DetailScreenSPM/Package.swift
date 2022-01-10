@@ -4,21 +4,24 @@
 import PackageDescription
 
 let package = Package(
-    name: "DesignSPM",
+    name: "DetailScreenSPM",
     platforms: [.iOS(.v14)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
-        .library(name: "Color", type: .static, targets: ["Color"]),
-        .library(name: "UIComponent", type: .static, targets: ["UIComponent"])
+        .library( name: "DetailScreen", type: .static, targets: ["DetailScreen"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        .package(name: "DesignSPM", path: "../DesignSPM")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-        .target(name: "Color", dependencies: []),
-        .target(name: "UIComponent", dependencies: ["Color"])
+//        .target( name: "DetailScreen", dependencies: [
+//            .product(name: "DesignSPM", package: "DesignSPM")
+//        ])
+        .target( name: "DetailScreen", dependencies: [
+            .product(name: "UIComponent", package: "DesignSPM")
+        ])
     ]
 )

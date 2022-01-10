@@ -6,17 +6,18 @@
 //
 
 import UIKit
+import Color
 
-class CustomButtom: UIButton {
+public class CustomButtom: UIButton {
 
 
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         
         setUpViews()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         setUpViews()
@@ -24,5 +25,6 @@ class CustomButtom: UIButton {
 
     private func setUpViews() {
         
+        self.backgroundColor = Color.BackGround.black.setColor()
     }
 }

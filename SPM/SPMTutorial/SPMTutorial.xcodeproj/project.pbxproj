@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3061CB602785BA7100719108 /* Color in Frameworks */ = {isa = PBXBuildFile; productRef = 3061CB5F2785BA7100719108 /* Color */; };
+		30287B1C278C21C90099FD44 /* DetailScreen in Frameworks */ = {isa = PBXBuildFile; productRef = 30287B1B278C21C90099FD44 /* DetailScreen */; };
+		30BBE2B327894D780043EB26 /* UIComponent in Frameworks */ = {isa = PBXBuildFile; productRef = 30BBE2B227894D780043EB26 /* UIComponent */; };
 		30BE06FC2785A9B30040F02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE06FB2785A9B30040F02E /* AppDelegate.swift */; };
 		30BE06FE2785A9B30040F02E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE06FD2785A9B30040F02E /* SceneDelegate.swift */; };
 		30BE07002785A9B30040F02E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BE06FF2785A9B30040F02E /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30287B1A278C1AF80099FD44 /* DetailScreenSPM */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DetailScreenSPM; path = ../DetailScreenSPM; sourceTree = "<group>"; };
 		30BE06F82785A9B30040F02E /* SPMTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPMTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30BE06FB2785A9B30040F02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30BE06FD2785A9B30040F02E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3061CB602785BA7100719108 /* Color in Frameworks */,
+				30BBE2B327894D780043EB26 /* UIComponent in Frameworks */,
+				30287B1C278C21C90099FD44 /* DetailScreen in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 		30BE06EF2785A9B30040F02E = {
 			isa = PBXGroup;
 			children = (
+				30287B1A278C1AF80099FD44 /* DetailScreenSPM */,
 				30BE070F2785AAC20040F02E /* DesignSPM */,
 				30BE06FA2785A9B30040F02E /* SPMTutorial */,
 				30BE06F92785A9B30040F02E /* Products */,
@@ -96,7 +100,8 @@
 			);
 			name = SPMTutorial;
 			packageProductDependencies = (
-				3061CB5F2785BA7100719108 /* Color */,
+				30BBE2B227894D780043EB26 /* UIComponent */,
+				30287B1B278C21C90099FD44 /* DetailScreen */,
 			);
 			productName = SPMTutorial;
 			productReference = 30BE06F82785A9B30040F02E /* SPMTutorial.app */;
@@ -377,9 +382,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3061CB5F2785BA7100719108 /* Color */ = {
+		30287B1B278C21C90099FD44 /* DetailScreen */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Color;
+			productName = DetailScreen;
+		};
+		30BBE2B227894D780043EB26 /* UIComponent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UIComponent;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
