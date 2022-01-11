@@ -1,12 +1,12 @@
 
 import UIKit
 import UIComponent
-
+import Color
 
 public class DetailScreenViewController: UIViewController {
     
     private let button: CustomButtom = {
-        $0.setTitle("123", for: .normal)
+        $0.setTitle("456", for: .normal)
         return $0
     }(CustomButtom(type: .custom))
     

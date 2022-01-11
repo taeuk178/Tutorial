@@ -21,7 +21,7 @@ let package = Package(
 //            .product(name: "DesignSPM", package: "DesignSPM")
 //        ])
         .target( name: "DetailScreen", dependencies: [
-            .product(name: "UIComponent", package: "DesignSPM")
+                    .product(name: "UIComponent", package: "DesignSPM")
         ])
     ]
 )
